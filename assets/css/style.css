@@ -1,0 +1,102 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/EPICODE/Giorno\ 4/assets/img/sfondo.png);
+}
+
+header {
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: rgb(70, 121, 145);
+    box-shadow: 1px 1px 5px black;
+}
+
+/* MAIN */
+#main {
+
+    margin: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px gray
+}
+
+
+head {
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 1px 1px 5px 1px black;
+    background-color: rgb(2, 100, 146);
+    border: 2px solid grey hidden;
+    color: white;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    height: 0, 5px;
+    width: 0, 5px;
+    background-color: gray;
+    box-shadow: 1px 1px gray;
+}
+
+.codice {
+    background-color: rgba(221, 217, 217, 0.905);
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    background-color: rgba(221, 217, 217, 0.905);
+    border-radius: 5px;
+    margin: 3px;
+
+}
+
+.tabella  {
+    color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.48);
+    font-weight: bold;
+}
+.striped-table th {
+    text-align: center;
+    background-color: #141a5b; 
+    color: #fff; 
+}
+
+.striped-table tbody tr:nth-child(even) {
+    text-align: center;
+    background-color: #f2f2f2; 
+}
+
+.striped-table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.striped-table, .striped-table th, .striped-table td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.striped-table th, .striped-table td {
+    text-align: center;
+    font-weight: normal;
+}
