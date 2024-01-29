@@ -17,9 +17,8 @@ REGOLE
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let name = 'Dario'
+let name = 'Stefano'
 document.getElementById('esercizio2').innerHTML = name;
-console.log(name);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -47,9 +46,8 @@ document.getElementById('esercizio4').innerHTML = x;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-name = 'Del Giudice';
+name = 'Fortezza';
 document.getElementById('esercizio5').innerHTML = name;
-console.log(name);
 
 // const altroNome = 'Pippo';
 // altroNome = 'Pluto';
@@ -61,7 +59,8 @@ console.log(name);
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-document.getElementById('esercizio6').innerHTML = 4 - x;
+let numeroNuovo = 4;
+document.getElementById('esercizio6').innerHTML = numeroNuovo - x;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
