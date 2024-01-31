@@ -185,16 +185,7 @@ console.log(me)
 */
 
 let myArray = []
-myArray.push(1)
-myArray.push(2)
-myArray.push(3)
-myArray.push(4)
-myArray.push(5)
-myArray.push(6)
-myArray.push(7)
-myArray.push(8)
-myArray.push(9)
-myArray.push(10)
+myArray.push(1,2,3,4,5,6,7,8,9,10);
 console.log(myArray)
 
 /* ESERCIZIO 15
