@@ -4,14 +4,13 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let l1 = 6;
-let l2 = 3;
-
 function area(l1, l2) {
-    return l1 * l2;
+    let area = l1 * l2;
+    return area;
 }
-console.log(l1 * l2);
 
+console.log("*** Esercizio 1 ****")
+console.log(area(3, 5));
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -21,8 +20,8 @@ console.log(l1 * l2);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num1 = 2
-let num2 = 3
+let num1 = 2;
+let num2 = 3;
 
 function crazySum(num1, num2) {
     if (num1 === num2) {
@@ -32,6 +31,7 @@ function crazySum(num1, num2) {
     }
 }
 
+console.log("*** Esercizio 2 ****")
 console.log(crazySum(num1, num2));
 
 /* ESERCIZIO 3
@@ -42,17 +42,18 @@ console.log(crazySum(num1, num2));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let numfornito = 20;
-let parametro = 19;
 
-function crazyDiff(numfornito, parametro) {
+function crazyDiff(numfornito) {
     if (numfornito > 19) {
-        return (numfornito) * 3 - parametro;
+        return Math.abs(numfornito - 19) * 3;
     } else {
-        return numfornito - parametro;
+        return Math.abs(numfornito - 19);
     }
 }
 
-console.log(crazyDiff(numfornito, parametro));
+
+console.log("*** Esercizio 3 ****")
+console.log(crazyDiff(numfornito));
 
 
 /* ESERCIZIO 4
@@ -72,6 +73,7 @@ function boundary(n) {
     }
 }
 
+console.log("*** Esercizio 4 ****")
 console.log(boundary(n));
 
 
@@ -86,13 +88,14 @@ console.log(boundary(n));
 let stringa = "EPICODE Stefano"
 
 function epify(stringa) {
-    if (stringa.startsWith("EPICODE")) { 
+    if (stringa.startsWith("EPICODE")) {
         return stringa;
     } else {
         return "EPICODE " + stringa;
     }
 }
 
+console.log("*** Esercizio 5 ****")
 console.log(epify(stringa));
 
 
@@ -114,6 +117,7 @@ function check3and7(numpositivo) {
     }
 }
 
+console.log("*** Esercizio 6 ****")
 console.log(check3and7(numpositivo));
 
 /* ESERCIZIO 7
@@ -126,6 +130,7 @@ function reverseString(stringa) {
     return stringa.split("EDOCIPE").reverse().join("EPICODE");
 }
 
+console.log("*** Esercizio 7 ****")
 console.log(reverseString(stringa));
 
 /* ESERCIZIO 8
@@ -135,13 +140,14 @@ console.log(reverseString(stringa));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let stringaNuova= "ciao sono Stefano";
-function upperFirst (match) {
+let stringaNuova = "ciao sono Stefano";
+function upperFirst(match) {
     return stringaNuova.replace(/\b \w/g, function (match) {
         return match.toUpperCase();
     });
 }
 
+console.log("*** Esercizio 8 ****")
 console.log(upperFirst(stringaNuova));
 
 /* ESERCIZIO 9
