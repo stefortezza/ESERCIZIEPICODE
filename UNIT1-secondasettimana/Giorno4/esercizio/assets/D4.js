@@ -63,13 +63,13 @@ console.log(crazyDiff(numfornito));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let n = 100;
+let n = 20;
 
 function boundary(n) {
-    if (n >= 20 && n <= 100) {
-        return "true";
+    if (n >= 20 && n <= 100 || n === 400) {
+        return true;
     } else {
-        return n = 400;
+        return false;
     }
 }
 
@@ -105,15 +105,17 @@ console.log(epify(stringa));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let numpositivo = -1;
+let numpositivo =-1;
 
 function check3and7(numpositivo) {
     if (numpositivo < 0) {
-        console.log("NUMERO NEGATIVO - NON ACCETTATO")
-    } else if (numpositivo % 3 === 0 || numpositivo % 7 === 0) {
-        console.log("NUMERO MULTIPLO DI 3 O DI 7");
+        return "NUMERO NEGATIVO - NON ACCETTATO";
+    } else if (numpositivo % 3 === 0) {
+        return "NUMERO MULTIPLO DI 3";
+    } else if ( numpositivo % 7 === 0) {
+        return "IL NUMERO E' MULTIPLO DI 7";
     } else {
-        console.log("IL NUMERO NON E' MULTIPLO DI 3 O DI 7");
+        return "NON E' NE MULTIPLO DI 3 NE DI 7";
     }
 }
 
@@ -126,12 +128,13 @@ console.log(check3and7(numpositivo));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
 function reverseString(stringa) {
-    return stringa.split("EDOCIPE").reverse().join("EPICODE");
+    return stringa.split("").reverse().join("");
 }
 
 console.log("*** Esercizio 7 ****")
-console.log(reverseString(stringa));
+console.log(reverseString("EPICODE"));
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
