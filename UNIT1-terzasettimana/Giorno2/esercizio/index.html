@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esercizio UNIT 1 settimana 3 giorno 2</title>
+    <title>Netflix con HTML/JS</title>
 </head>
-
 <body>
+    
+    <h1>Cerca il tuo film</h1>
 
-    <script src="assets/js/D7.js"> </script>
+    <select id="elenco">
+        <option value="" selected></option>
+    </select>
+    <button type="button" id="scegli">SCEGLI</button>
+
+    <hr />
+
+    <div class="film">
+        <h2 id="titolo"></h2>
+        <h3 id="anno"></h3>
+        <div id="locandina"></div>
+        <p>&nbsp;</p>
+        <div id="trailer"></div>
+    </div>
+
+    <script src="assets/js/D6.js"></script>
 </body>
-
 </html>
