@@ -228,9 +228,9 @@ footer a {
     color: fuchsia;
 }
 
-/* MODIFICHE SULLA BASE DELLA RISOLUZIONE SCHERMO/MOBILE/TABLET */
+/* MODIFICHE SULLA BASE DELLA RISOLUZIONE MOBILE (480PX) - TABLET (768PX) - PC (1200PX) */
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:480px) {
     article p {
         font-size: 1.5rem;
     }
@@ -241,7 +241,7 @@ footer a {
     }
 
     footer {
-        font-size: 1.65rem;
+        font-size: 1.6rem;
     }
 
     nav ul {
@@ -286,7 +286,27 @@ footer a {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
+    footer {
+        font-size: 1.8rem;
+    }
+    
+    fieldset {
+        padding-left: 0;
+        border: none;
+    }
+
+    fieldset input {
+        width: 450px;
+        height: 45px;
+    }
+
+    fieldset button {
+        width: 100px;
+        height: 45px;
+    } 
+
+
     article p {
         font-size: 1.4em;
     }
@@ -339,5 +359,14 @@ footer a {
     .formattazzione1 h2 {
         margin-bottom: 0;
     }
+}
 
+@media screen and (min-width:1200px) {
+
+}
+
+@media print {
+    .testo, hr, iframe, .stampa, aside, footer {
+        display: none;
+    }
 }
