@@ -89,9 +89,9 @@ section h2 {
 }
 
 article img {
-    width:80px;
-    height:80px;
-    padding:1px;
+    width: 80px;
+    height: 80px;
+    padding: 1px;
     border: 4px solid #a12572;
 }
 
@@ -271,32 +271,34 @@ footer a {
 
     h2 {
         font-size: 1.1em;
-        font-weight:inherit;
+        font-weight: inherit;
     }
 
-    ol, ul{
-       margin-inline: 0;
+    ol,
+    ul {
+        margin-inline: 0;
     }
 
     .formattazzioneCodice p {
         font-size: 1.6rem;
         margin: 0;
     }
-    
+
     .formattazzioneCodice h2 {
         margin-bottom: 0;
     }
 }
-    .formattazioneLista {
-        font-size: 1.5rem;
-    }
+
+.formattazioneLista {
+    font-size: 1.5rem;
+}
 
 
 @media screen and (min-width:768px) {
     footer {
         font-size: 1.8rem;
     }
-    
+
     fieldset {
         padding-left: 0;
         border: none;
@@ -310,12 +312,13 @@ footer a {
     fieldset button {
         width: 100px;
         height: 45px;
-    } 
+    }
 
 
     article p {
         font-size: 1.4em;
     }
+
     nav ul {
         display: inline-flex;
         padding: 0;
@@ -338,7 +341,7 @@ footer a {
         font-size: 1.6em;
     }
 
-    table{
+    table {
         margin-left: auto;
         margin-right: auto;
         width: 70%;
@@ -348,11 +351,12 @@ footer a {
         background-color: #a3a3a3;
     }
 
-    ol, ul{
-       margin-inline: 0;
-       font-size: 1.9rem;
+    ol,
+    ul {
+        margin-inline: 0;
+        font-size: 1.9rem;
     }
-    
+
     .formattazzioneCodice p {
         font-size: 1.9rem;
         margin: 0;
@@ -362,17 +366,74 @@ footer a {
         margin-bottom: 0;
     }
 }
-    .formattazioneLista ol li{
-        font-size: 2rem;
+
+.formattazioneLista ol li {
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:1200px) {
+    footer {
+        font-size: 2.2rem;
     }
 
+    fieldset {
+        padding-left: 0;
+        border: none;
+    }
 
-@media screen and (min-width:1200px) {
+    fieldset input {
+        width: 400px;
+        height: 45px;
+    }
 
+    fieldset button {
+        width: 100px;
+        height: 45px;
+    }
+
+    #articoliCorrelati{
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+        height: 140px;
+        display: inline-flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    #articoliCorrelati div {
+        height: 100%;
+        width: 100%;
+    }
+
+    table {
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    #video {
+        width: 563px;
+        height: 300px;
+        float: left;
+    }
+
+    #newsLetterBlog {
+        border-radius: 20px;
+        width: 563px;
+        height: 300px;
+        float: right;
+    }
 }
 
 @media print {
-    .testo, hr, iframe, .newsLetterBlog, aside, footer {
+
+    .testo,
+    hr,
+    iframe,
+    .newsLetterBlog,
+    aside,
+    footer {
         display: none;
     }
 }
