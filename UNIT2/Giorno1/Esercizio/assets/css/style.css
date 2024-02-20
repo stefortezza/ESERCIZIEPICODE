@@ -236,7 +236,7 @@ footer a {
 
 /* MODIFICHE SULLA BASE DELLA RISOLUZIONE MOBILE (480PX) - TABLET (768PX) - PC (1200PX) */
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:576px) {
     article p {
         font-size: 1.5rem;
     }
@@ -258,6 +258,15 @@ footer a {
     nav ul li {
         margin-right: 15px;
         font-size: 1.8rem;
+    }
+
+    
+    iframe #video {
+        width: 100%;
+    }
+
+    #newsLetterBlog {
+        width: 100%;
     }
 
     .testo p {
@@ -372,7 +381,7 @@ footer a {
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width:1200px) {
     footer {
         font-size: 2.2rem;
     }
