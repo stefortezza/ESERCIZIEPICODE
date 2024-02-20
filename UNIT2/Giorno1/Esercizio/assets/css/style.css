@@ -60,6 +60,11 @@ header nav li a::before {
     content: "\22c6\0020";
 }
 
+.logoEpicode img {
+    width: 250px;
+    height: 60px;
+}
+
 /* MAIN */
 main {
     background-color: #fff;
@@ -135,6 +140,7 @@ code {
 
 iframe {
     width: 100%;
+    height: 300px;
     height: auto;
     margin-bottom: 2em;
     border-radius: 20px;
@@ -272,19 +278,19 @@ footer a {
        margin-inline: 0;
     }
 
-    .formattazzione1 p {
+    .formattazzioneCodice p {
         font-size: 1.6rem;
         margin: 0;
     }
-
-    .formattazione2 {
-        font-size: 1.5rem;
-    }
-
-    .formattazzione1 h2 {
+    
+    .formattazzioneCodice h2 {
         margin-bottom: 0;
     }
 }
+    .formattazioneLista {
+        font-size: 1.5rem;
+    }
+
 
 @media screen and (min-width:768px) {
     footer {
@@ -347,26 +353,26 @@ footer a {
        font-size: 1.9rem;
     }
     
-    .formattazzione1 p {
+    .formattazzioneCodice p {
         font-size: 1.9rem;
         margin: 0;
     }
 
-    .formattazione2 ol li{
-        font-size: 2rem;
-    }
-
-    .formattazzione1 h2 {
+    .formattazzioneCodice h2 {
         margin-bottom: 0;
     }
 }
+    .formattazioneLista ol li{
+        font-size: 2rem;
+    }
+
 
 @media screen and (min-width:1200px) {
 
 }
 
 @media print {
-    .testo, hr, iframe, .stampa, aside, footer {
+    .testo, hr, iframe, .newsLetterBlog, aside, footer {
         display: none;
     }
 }
