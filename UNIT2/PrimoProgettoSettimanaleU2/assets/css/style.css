@@ -1,0 +1,234 @@
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #ffc017;
+}
+
+header .imgLogo {
+    flex: 1;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header nav p {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #ffc017;
+}
+
+#containerTesto {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex: 1;
+}
+
+#containerTesto h1 {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-size: 5rem;
+    padding-top: 70px;
+}
+
+#containerTesto p {
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+
+#containerTesto h1,
+#containerTesto p {
+    font-weight: 400;
+    padding-left: 100px;
+    margin: 0;
+}
+
+#letteraM {
+    flex-shrink: 0;
+    margin: 0;
+}
+
+#letteraM object {
+    width: 450px;
+    height: 370px;
+}
+
+#startReading2 {
+    background-color: #191919;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#startReading {
+    background-color: #191919;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 20px;
+}
+
+#mainFlex {
+    font-weight: 700;
+    padding: 25px 100px;
+}
+
+#imgTrending {
+    text-transform: uppercase;
+    display: flex;
+}
+
+#imgTrending p {
+    padding-left: 20px;
+}
+
+#numero {
+    display: flex;
+    align-items: center;
+}
+
+#numero p {
+    font-weight: 700;
+    color: rgba(187, 187, 187, 0.5);
+    margin: 0;
+    text-align: center;
+    padding-left: 0;
+    font-size: 3em;
+}
+
+
+#numero img {
+    width: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#contenuto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#contenutoImmagine p {
+    margin: 10px;
+}
+
+#contenutoImmagine {
+    font-size: 1rem;
+}
+
+#contenutoImmagine .nascita {
+    font-weight: 400;
+    color: rgb(146, 143, 143);
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+}
+
+.flex {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.nascita {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.flex2 {
+    padding-left:60px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+#imgAndName {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+#imgAndName img {
+    width: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#contenutoBox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#immagineGrande img {
+    height: 100px;
+    float: right;
+}
+
+#contenutoImmagine2 .domanda {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#contenutoImmagine2 {
+    font-size: 0.8rem;
+}
+
+#contenutoImmagine2 .testoImg {
+    font-weight: 400;
+    color: rgb(146, 143, 143);
+}
+
+
+.nascita2 span {
+    background-color: rgb(220, 219, 219);
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.nascita2 {
+    display: inline-flex;
+}
+
+.nascita2 img {
+    padding-left: 10px;
+}
+
+.bookmarkLeft {
+    float: right;
+}
