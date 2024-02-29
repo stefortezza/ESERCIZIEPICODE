@@ -1,0 +1,71 @@
+html,
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.showcase-content {
+    background-color: #7451fe;
+}
+
+.imgDestra {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#margin {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#testo {
+    color: #C1ADFF;
+    font-size: 1.3rem;
+}
+
+#campanella {
+    background-color: #F5F4F8;
+}
+
+#imgHeroBg {
+    background-color: #e88286;
+}
+
+/* Per colorare le stelline di dentro */
+.img-fluid {
+    display: inline-flex; 
+}
+
+.star {
+    fill: none;
+    stroke: #ffc107; /* Colore warning */
+    stroke-width: 2;
+}
+
+/* FINE */
+
+.percentualeStar {
+font-size: 1.1rem;
+color: #ffc107;
+font-weight: 300;
+}
+
+.totaleStar {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #9e99b3;
+}
+
+.ins {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.bookmarkEnd {
+    padding-left: 90px;
+}
+
+#colore {
+    color: #D08938;
+    background-color: #FFEEDA;
+}
