@@ -19,16 +19,25 @@
         <header>
             <div class="container-fluid">
                 <div id="logoNetflix">
-                    <img src="assets/img/netflix_logo.png" alt="Logo Netflix" width="200px">
+                    <a href="index.html"><img src="assets/img/netflix_logo.png" alt="Logo Netflix" width="200px"></a>
                 </div>
             </div>
-            <nav class="main-nav d-flex justify-content-start align-items-center px-5">
-                <a href="javascrit: void(0)">Home</a>
-                <a href="javascrit: void(0)">TV Shows</a>
-                <a href="javascrit: void(0)">Movies</a>
-                <a href="javascrit: void(0)">Recently Added</a>
-                <a href="javascrit: void(0)">My List</a>
-            </nav>
+            <div class="container-fluid">
+                <nav class="main-nav navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a href="javascrit: void(0)">Home</a>
+                        <a href="javascrit: void(0)">TV Shows</a>
+                        <a href="javascrit: void(0)">Movies</a>
+                        <a href="javascrit: void(0)">Recently Added</a>
+                        <a href="javascrit: void(0)">My List</a>
+                    </div>
+                </nav>
+            </div>
             <div class="d-flex justify-content-end">
                 <div class="d-flex align-items-center" id="loghiNav">
                     <i class="fas fa-search sub-nav-logo me-3"></i>
@@ -36,26 +45,30 @@
                 </div>
                 <div class="avatar-icon dropdown rounded-circle position-relative -light mt-2">
                     <img src="assets/img/avatar.png" alt="avatar" width="30px" class="bell-icon-img" id="avatarButton">
-                    <div class="dropdown-menu dropdown-menu-end border-0 shadow-lg py-3" aria-label="User Account" style="left: auto; right: 0;">
+                    <div class="dropdown-menu dropdown-menu-end border-0 shadow-lg py-3" aria-label="User Account"
+                        style="left: auto; right: 0;">
                         <div class="d-flex px-3 pb-1" style="gap: 6px">
                             <div class="avatar-icon rounded-circle position-relative bg-light me-2">
                                 <span class="dot bg-green position-absolute bottom-right"></span>
                             </div>
                             <div class="avatar-menu-header">
                                 <img src="assets/img/avatar.png" alt="avatar" width="30px">
-                                <a href="profile.html" style="text-decoration: none;"><h6 class="font-sm mb-0">Epicoder #1</h6></a>
+                                <a href="profile.html" style="text-decoration: none;">
+                                    <h6 class="font-sm mb-0">Epicoder #1</h6>
+                                </a>
                             </div>
                         </div>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item px-3" href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-user">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                            <span class="ms-2">Manage Profiles</span>
-                        </a>
+                        <div class="dropdown-item px-3" id="manageProfiles">
+                            <a href="account.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-user" >
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </a>
+                            <a href="account.html"><span class="ms-2">Manage Profiles</span></a>
+                        </div>
                         <a class="dropdown-item px-3" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
