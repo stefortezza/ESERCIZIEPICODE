@@ -201,6 +201,11 @@ footer {
   color: var(--dark);
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
  

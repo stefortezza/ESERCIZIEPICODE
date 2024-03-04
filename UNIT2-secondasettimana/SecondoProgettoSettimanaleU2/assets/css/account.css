@@ -25,3 +25,8 @@ ul{
 a:hover {
     color: red;
 }
+
+footer a {
+    text-decoration: none;
+    color: var(--dark);
+  }
