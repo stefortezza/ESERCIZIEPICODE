@@ -96,8 +96,8 @@ loadSecondaryImagesButton.addEventListener('click', () => {
 
                 // Aggiungi un evento click al pulsante "Hide"
                 editButton.addEventListener("click", function () {
-                    // Nascondi la card corrente quando viene cliccato il pulsante "Hide"
-                    card.style.display = "none";
+                    // Seleziona il genitore della card e rimuovilo
+                    card.parentNode.remove();
                 });
             });
         })
@@ -155,8 +155,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     timeElement.textContent = imageId;
                     // Aggiungi un evento click al pulsante "Hide"
                     editButton.addEventListener("click", function () {
-                        // Nascondi la card corrente quando viene cliccato il pulsante "Hide"
-                        card.style.display = "none";
+                        // Seleziona il genitore della card e rimuovilo
+                        card.parentNode.remove();
                     });
                 });
             })
