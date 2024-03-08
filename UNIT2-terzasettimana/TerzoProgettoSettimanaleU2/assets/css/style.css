@@ -1,0 +1,136 @@
+body {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 250px;
+    height: 100%;
+
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+
+header {
+    text-align: left;
+    background-color: #222f3e;
+}
+
+
+#logo img {
+    width: 150px;
+    margin: 5px;
+}
+
+#logo a {
+    color: white;
+}
+
+#productCards .card {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*FORM*/
+form {
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"] {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#productForm button {
+    margin-left: auto;
+    margin-bottom: 15px;
+    background-color: #ffc008;
+    color: black;
+    border: 1px solid #ffc008;
+    padding: 5px 150px;
+
+}
+
+#productForm #resetButton {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-left: 600px;
+    padding: 5px 150px;
+
+}
+
+#description {
+    height: 80px;
+}
+
+button.edit-button {
+    background-color: #ffc008;
+    color: rgba(0, 0, 0, 0.718);
+    text-align: center;
+    font-size: 20px;
+    width: 90px;
+    border: none;
+    height: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button.discover-button {
+    background-color: #11caf0;
+    color: rgba(0, 0, 0, 0.718);
+    text-align: center;
+    font-size: 20px;
+    width: 130px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button.delete-button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 440px;
+}
+
+/*FOOTER*/
+
+#footerFinal {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#footerFinal a {
+    color: white;
+    text-decoration: none;
+}
+
+#backToTop a {
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+}
