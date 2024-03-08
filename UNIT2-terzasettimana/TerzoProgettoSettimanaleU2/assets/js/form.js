@@ -120,7 +120,7 @@ function saveProduct(productName) {
             };
             localStorage.setItem('savedProducts', JSON.stringify(savedProducts));
             alert('Prodotto modificato con successo!');
-            window.location.href = 'index.html'; 
+            window.location.href = 'index.html';
         } else {
             alert('Prodotto non trovato!');
         }
